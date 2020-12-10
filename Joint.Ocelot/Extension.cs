@@ -6,6 +6,7 @@ using Ocelot.Middleware;
 using Joint.Ocelot.Options;
 using Joint.Ocelot.Validators;
 using Joint.Builders;
+using Ocelot.Provider.Consul;
 
 namespace Joint.Ocelot
 {
