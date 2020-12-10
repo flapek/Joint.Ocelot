@@ -1,8 +1,26 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+	<PropertyGroup>
+		<TargetFramework>netcoreapp3.1</TargetFramework>
+	</PropertyGroup>
 
+	<!--Package info-->
+	<PropertyGroup>
+		<Authors>Marcin Filapek</Authors>
+		<Title>Joint.Ocelot</Title>
+		<Copyright>Copyright (c) 2020 Joint</Copyright>
+		<Company></Company>
+		<Product>Joint.Ocelot</Product>
+		<PackageId>Joint.Ocelot</PackageId>
+		<PackageDescription>This package its created for common functionality.</PackageDescription>
+		<PackageTags>Ocelot; ApiGateway;</PackageTags>
+		<Description>
+		</Description>
+		<RepositoryUrl>https://github.com/flapek/Joint.Ocelot</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Joint" Version="0.0.160" />
+		<PackageReference Include="Ocelot" Version="16.0.1" />
+	</ItemGroup>
 </Project>
