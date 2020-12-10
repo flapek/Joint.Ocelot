@@ -21,7 +21,7 @@ namespace Joint.Ocelot
             builder.Services.AddSingleton(optionsRoutes);
             builder.Services.AddSingleton(optionsOcelot);
             builder.Services.AddSingleton<IAnonymousRouteValidator, AnonymousRouteValidator>();
-            builder.Services.AddOcelot();
+            builder.Services.AddOcelot().AddConsul();
 
             return builder;
         }
